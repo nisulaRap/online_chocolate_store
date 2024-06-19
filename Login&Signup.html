@@ -1,0 +1,35 @@
+<html>
+<head>
+	<link rel = "stylesheet" href = "Style1.css">
+</head>
+<body class = "back">
+<div class = "box">
+	<!-- Toggle button -->
+	<div class = "word">Login &emsp; Sign Up</div><input type = "checkbox" class = "toggle-btn" name = "" />
+	
+	<!-- Login side -->
+	<div class = "login">
+		<form class = "input-group" action = "login.php" method = "POST">
+			Username : <input type = "text" onfocus="this.value=''" name = "uname" class = "inp" placeholder = "Username" /><br><br>
+			Password : <input type = "password" onfocus="this.value=''" name = "pass" class = "inp" placeholder = "Password" /><br><br>
+			<input type = "submit" class = "input-group inp submit-btn" value = "Login" /><br><br>
+		</form>
+		<a href = "index.php" style = "padding-left:135px;">Back</a>
+	</div>
+	
+	<!-- Signup side -->
+	<div class = "signup">
+		<form class = "input-group" action = "registration.php" method = "POST">
+			Username : <input type = "text" name = "uname" class = "inp" placeholder = "Username" /><br>
+			Password : <input type = "password" name = "pass" class = "inp" placeholder = "Password" /> <br>
+			Confirm Password : <input type = "password" name = "cpass" class = "inp" placeholder = "Confirm Password" /><br>
+			Name : <input type = "text" name = "name" class = "inp" placeholder = "First Name and Last Name" /><br>
+			Address : <input type = "text" name = "address" class = "inp" placeholder = "Address" /><br>
+			Email : <input type = "text" name = "email" class = "inp" placeholder = "e.g:- abc@gmail.com" /><br>
+			Phone_No : <input type = "text" name = "phone" class = "inp" placeholder = "Telephone No" /><br><br>
+			<input type = "submit" class = "input-group inp submit-btn" value = "Account" />
+		</form>
+	</div>
+</div>
+</body>
+</html>

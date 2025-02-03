@@ -1,8 +1,9 @@
 # Online Chocolate Store
 
+## Overview
 Welcome to the Chocolate Importers and Distributors website. We are a leading company specializing in the import and distribution of high-quality chocolates. Our website allows customers to sell their products through an online ordering system, providing a seamless shopping experience.
 
-## Features
+## Key Features
 - **Online Ordering System**: Customers can browse and place orders for chocolates.
 - **Responsive Design**: The website is fully responsive, ensuring a great experience on all devices.
 - **Product Listings**: Customers can view detailed product information and make informed purchasing decisions.
